@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+}
+
+h1{
+    color: #ededed;
+    display: flex;
+}
+h2{
+    color: #ededed;
+    display: flex;
+}
+.senha{
+    text-align: center;
+
+}
+
+.all-login{
+    background-color:#212121;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquerda{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.direita{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: #00285f;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #09090938;
+}
+
+.card > h1 {
+    color:#ededed;
+    font-weight: 800;
+    margin: 0;
+}
+
+.inputs{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.inputs > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color:#83abe3;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #09090938;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.inputs > label{
+    color: #f0ffffde;
+    margin-bottom:10px;
+}
+
+.inputs > input::placeholder {
+    color:#afc7ea;
+}
+
+.botaoregistrar{   
+    width: 100%;
+    padding: 16px 0px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    background-color:#212121;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px rgba(155, 14, 43, 0.34);
+}
+
+.botaoregistrar:hover{
+    background-color: #00285f;
+}
+
+.botaologin {   
+    width: 100%;
+    padding: 16px 0px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    background-color:#212121;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px rgba(155, 14, 43, 0.34);
+}
+
+.botaologin:hover{
+    background-color: #00285f;
+ }
+
+
+img{
+    width: 650px;
+    height: 650px;
+    display: flex;
+    margin-bottom: 80px;
+}
+
