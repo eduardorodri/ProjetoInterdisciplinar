@@ -10,13 +10,18 @@ Este é um pequeno site desenvolvido como meu primeiro projeto interdisciplinar.
 
 ## Tecnologias Utilizadas
 -HTML: Estrutura básica da página.
+
 -CSS: Estilização para tornar o site visualmente agradável.
+
 -JavaScript: Lógica para a tela de login e funcionalidades do catálogo.
 
 ## Como Utilizar
 -Clone este repositório.
+
 -Abra o arquivo index.html em seu navegador.
+
 -Faça login com suas credenciais.
+
 -Explore o catálogo de remédios!
 
 ## Contribuições
